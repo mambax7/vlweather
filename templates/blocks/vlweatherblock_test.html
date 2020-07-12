@@ -1,0 +1,19 @@
+<{$block.title}>
+<table>
+</tr><td>
+<center><b><{$block.location}></b></center>
+<center><b><{$block.time}></b></center>
+<table cellpadding=\"4\" cellspacing=\"2\" align=\"center\"><tr><td>
+<center><a href=\"<{$block.moreurl}>\"><IMG SRC=\"" . XOOPS_URL . "/modules/vlweather/icons/" . <{$block.image}> . "\" alt=\"\" height=\"50\" width=\"50\" border=\"1\"></a></center>
+</td></tr></table>
+<center><font class=\"sideboxfont\"><{$block.sky}><{$block.conditions}><{$block.curr_snow}></font></center>
+<table cellpadding=\"2\" cellspacing=\"2\" align=\"center\">
+<tr><td><center><font class=\"sideboxfont\"><{$block.temp}><{$block.feels}><{$block.rel_humidity}><{$block.dew}></font></center></td></tr>
+<tr><td><center><font class=\"sideboxfont\"><{$block.bar}>&nbsp;<{$block.bardir}></font></center></td></tr>
+<tr><td><center><font class=\"sideboxfont\"><{$block.windspeed}></font></center></td></tr>
+<tr><td><center><font class=\"sideboxfont\"><{$block.rec_precip}></font></center></td></tr>
+</table>
+<center><font class=\"sideboxfont\"><{$block.forecast}></font></center>
+<{$block.usersettings}>
+</td></tr></table>
+
